@@ -1,0 +1,24 @@
+/*body{
+	width: 700px;
+	margin: auto;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	margin-top: 30px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 20px;
+}*/
+body{
+	width: 50%;
+}
+.box{
+	width: 30%;
+	padding-bottom: 30%;
+	/*div不能寫東西*/
+	background-color: yellow;
+	border-radius: 20px;
+	display: inline-block;
+}

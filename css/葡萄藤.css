@@ -1,0 +1,19 @@
+body{
+	width: 40%;
+}
+.jiantou{
+	width: 400px;
+	height: 600px;
+	background-color: #00BFFF;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	}
+.arrow{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.box-1{
+	padding: 105px;
+	margin-top: 15px;
+}

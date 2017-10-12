@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 100%;
+    height: 87px;
+    background: #5FC0CD;
+    padding-top: 11px;
+}
+.alone{
+	width: 340px;
+	height: 76px;
+	background: #55a8b3;
+	text-align:center;
+	margin: auto;
+	border-radius: 15px ;
+}
+.alone span{
+	font-size: 32px;
+	color: #FFFFFF;
+	line-height: 75px;
+}
+.arrow{
+	width: 170px;
+	height: 76px;
+	background: #FFFFFF;
+    border-radius: 15px ;
+    float: right;
+}
+.arrow span	{
+	font-size: 32px;
+	color: #5FC0CD;
+}
+.box img{
+	text-align: right;
+	float: right;
+    margin-top: -60px;
+    margin-right: 36px;
+}
+.botton{
+    margin-top: 23px;
+    margin-left: 88px;
+}
+.botton span{
+	font-size: 35px;
+	color: #999999;
+	padding-right: 147px;
+}
+.one{
+	width: 0px;
+    height: 100px;
+    border: 1px #E1E5E7 solid;
+    margin: -69px 0px 0px 29% ;
+}
+.bady{
+	margin: -72px 0px 0px 41%;
+}
+.five{
+	width: 0px;
+	height: 100px;
+	border: 1px #E1E5E7 solid;
+	margin:-76px 0px 0px 65%;
+}
+.six{
+	margin:-70px 0px 0px 71% ;
+}
+.china{
+	border: 1px #E1E5E7 solid;
+    margin-left: -88px;
+    margin-top: 24px;
+}
+.cen{
+	margin-top: 33px;
+	margin-left: 38px;
+}
+.cen span{
+	font-size: 28px;
+	color: #999999;
+    margin-left: 48px;
+}
+.big{
+	margin: 20px 0px 0px 30px;
+}
+.big span{
+	color: #000000;
+}
+.change{
+	margin: -37px 0px 0px 73%;
+}
+.change span{
+	color: #E26163;
+}
+.change img{
+	padding-left: 100px;
+}
+.boy{
+	margin-top: 14px;
+}
+.catch{
+	border: 1px #E1E5E7 solid;
+	margin: 40px 0px 0px -40px;
+}
+.you{
+	margin: 33px 0px 0px 38px;
+}
+.you span{
+	font-size: 28px;
+	color: #999999;
+	margin-left: 23px;
+}
+.aubmut{
+	margin: 20px 0px 0px 53px;
+}
+.aubmut span{
+	color: #000000;
+}
+.button{
+	margin: -40px 0px 0px 75%;
+}
+.button span{
+	color: #E26163;
+}
+.button img{
+	padding-left: 100px;
+}
+.sket{
+	margin-top: 14px;
+}
+.kiss{
+	border: 1px #E1E5E7 solid;
+	margin: 40px 0px 0px -40px;
+}
+.eternal{
+	margin: 33px 0px 0px 38px;
+}
+.eternal span{
+	font-size: 28px;
+	color: #999999;
+	margin-left: 23px;
+}
+.wonder{
+	margin: 20px 0px 0px 53px;
+}
+.wonder span{
+	color: #000000;
+}
+.favorite{
+	margin: -43px 0px 0px 75% ;
+}
+.favorite span{
+	color: #E26163;
+}
+.favorite img{
+	padding-left: 100px;
+}
+.forever{
+	margin-top: 14px;
+}
+.forgive{
+	border: 1px #E1E5E7 solid;
+	margin: 40px 0px 0px -40px;
+}
+.menu{
+	margin: 33px 0px 0px 38px;
+}
+.menu span{
+	font-size: 28px;
+	color: #999999;
+	margin-left: 23px;
+}
+.submenu{
+	margin: 20px 0px 0px 53px;
+}
+.submenu span{
+	color: #000000;
+}
+.main{
+	margin: -43px 0px 0px 75% ;
+}
+.main span{
+	color: #E26163;
+}
+.main img{
+	padding-left: 100px;
+}
+.tag{
+	margin-top: 14px;
+}
+.tips{
+	border: 1px #E1E5E7 solid;
+	margin: 40px 0px 0px -40px;
+}
+.title{
+	margin: 33px 0px 0px 38px;
+}
+.title span{
+	font-size: 28px;
+	color: #999999;
+	margin-left: 23px;
+}
+.summary{
+	margin: 20px 0px 0px 53px;
+}
+.summary span{
+	color: #000000;
+}
+.loginbar{
+	margin: -43px 0px 0px 75% ;
+}
+.loginbar span{
+	color: #E26163;
+}
+.loginbar img{
+	padding-left: 100px;
+}
+.searchInput{
+	margin-top: 14px;
+}
+.hot{
+	border: 1px #E1E5E7 solid;
+	margin: 40px 0px 0px -40px;
+}
+.service{
+	margin: 33px 0px 0px 38px;
+}
+.service span{
+	font-size: 28px;
+	color: #999999;
+	margin-left: 23px;
+}
+.tab{
+	width: 100%;
+    height: 110px;
+    background: #f8fafb;
+    border-top: 1px #e2eaec solid;
+}
+.tab img{
+	margin: 17px 0px 0px 19%;
+}
+.tab p{
+	font-size: 20px;
+	color: #5FC0CD;
+	margin: 10px 0px 0px 257px;
+}
+.news{
+	margin: -102px 0px 0px 45%;
+}
+.faqs{
+	margin: -90px 0px 0px 77%;
+}
+.faqs p{
+	font-size: 20px;
+	color: #999999;
+	margin: 14px 0px 0px 3px;
+}

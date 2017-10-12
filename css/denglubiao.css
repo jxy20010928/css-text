@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	background: #5fc0cd;
+	font-size: 64px;
+}
+.box p{
+	color: #FFFFFF;
+	
+}
+.box-1{
+	font-size: 50px;
+	
+}
+.text{
+	height: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 0px;
+	text-align: center;
+	overflow: auto;
+	
+}
+.text a{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+.cen{
+	height: 1500px;
+	background: #eff0f4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.cen img{
+	width: 27px;
+	height: 45px;
+}
+.cen-1{
+	height: 100px;
+	background: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	position: relative;
+
+}
+.cen-1 input{
+	border: none;
+	border-left: 3px solid #eaedee;
+	height: 40px;
+	position: absolute;
+	top: 41px;
+	left: 8%;
+	padding-left: 10px;
+	font-size: 18px;
+	outline: none;
+	
+}
+.six{
+	height: 100px;
+	background: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	margin-top: 30px;
+	position: relative;
+}
+.six input{
+	border: none;
+	border-left: 3px solid #EAEDEE;
+	height: 40px;
+	position: absolute;
+	top: 36%;
+	left: 8%;
+	padding-left: 10px;
+	font-size: 18px;
+	outline: none;
+	
+}
+.button{
+	margin-top: 65px;
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 13px;
+	font-size: 50px;
+	background: #5FC0CD;
+	color: #FFFFFF;
+	
+}
+.six-1 a{
+	font-size: 40px;
+	text-decoration:none;
+	color: #5FC0CD;
+	float: right;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+

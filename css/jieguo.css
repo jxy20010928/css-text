@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.active{
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	background: #29BDE0;
+	border-bottom: 1px solid #F5F5F5;
+}
+.active img{
+	margin: 25px 0px 0px 25px;
+}
+.active p{
+	font-size: 38px;
+	color: #FFFFFF;
+	margin-top: -49px;
+}
+.affix img{
+	position: fixed;
+	z-index: 9999;
+	right: 0;
+	margin: -43px 25px 0px 9px;
+}
+.alert{
+	background: #29BDE0;
+}
+.alert img{
+	margin: 144px 0px 0px 37%;
+    padding-bottom: 40px;
+}
+}
+.fade{
+	background: #29BDE0;
+	height: 190px;
+}
+.fade p{
+	font-size: 36px;
+	color: #ffc865;
+	margin: 36px 0px 0px 21px;dwaqas
+}
+.fee{
+	background: #29BDE0;
+	height: 200px;
+}
+.fee p{
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-right: 93px;
+}
+.one p{
+	margin-left: 76px;
+}
+.focus p{
+	margin-right: 269px;
+}
+.six{
+	background: #29BDE0;
+	height: 105px;
+}
+.six p{
+	margin-right:316px ;
+}
+.five{
+	height: 300px;
+}
+.five p{
+	font-size: 38px;
+    margin: 33px 0px 0px 175px;
+    color: #000000;
+}
+.lead p{
+	font-size: 30px;
+	color: #5E5E5E;
+	margin-left:72% ;
+	margin-top: -44px;
+}
+.well p{
+	color: #a6a6a6;
+	margin-top: 10px;
+}
+.main{
+	border-bottom: 2px solid #E5E5E5;
+	margin-top: 40px;
+}
+.forever p{
+	font-size: 45px;
+	color: #29BDE0;
+	margin: 18px 0px 15px 84px;
+}
+.faqs p{
+	font-size: 30px;
+	color: #29BDE0;
+	margin-left:78% ;
+	margin-top: -64px;
+}
+.catch{
+	height: 200px;
+	width: 100%;
+	background: #29BDE0;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;                                                                                                                                                                                                                                                                                                                                                                                        
+	opacity: 0.5;
+}
+.catch input{
+	border-radius:20px ;
+	background: #f66f6f;
+	margin: 36px 0px 0px 115px;
+}
+.box input{
+    background: #fbb435;
+    position: relative;
+    top: -168px;
+    left: 50%;
+}

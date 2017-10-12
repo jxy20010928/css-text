@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 84px;
+	width: 100%;
+	background: #5FC0CD;
+}
+.header img{
+	color: #00BFFF;
+	position: relative;
+    left: 30px;
+    bottom: -25px;
+}
+.header h2{
+	font-size: 33px;
+	color: #FFFFFF;
+	position: relative;
+	top: -23px;
+}
+.boy {
+	height: 330px;
+	width: 100%;
+	background: url(../img/task5-1.png) no-repeat;
+  background-size: 100% auto;
+	
+}
+.boy .six{
+	height: 330px;
+	width: 480px;
+	margin-left: 42px;
+	padding-top: 68px;
+}
+.boy .six img{
+	float: left;
+}
+.bady{
+	padding-left: 240px;
+	display: block;
+	margin:31px 0px 0px -36px;
+}
+.bady .five{
+	padding-left: 30px;
+}
+.bady span{
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.arrow span{
+    bottom: 524px;
+    font-size: 29px;
+    color: #ffffff
+}
+.botton img{
+	margin-left: 220px;
+}
+.forever{
+	float: left;
+    margin: 15px 0px 0px 42px;
+    
+}
+.forever span{
+	padding-left: 20px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+.forever img{
+	margin-top: 8px;
+}
+.lucky{
+	 border-bottom: 1px #e1e5e7 solid;
+	  padding-top: 20px;
+   padding-bottom: 20px;
+}
+.lucky span{
+	border-left: 2px solid #5FC0CD;
+	font-size: 38px;
+	margin-left: 66px;
+    padding-left: 40px;
+}
+.nostalgia{
+    margin:31px 0px 0px 118px;
+    font-size: 33px;
+}
+
+.favorite{
+	border-left: 2px solid #E1E5E7;
+	margin: -44px 0px 0px 117px;
+    padding-left: 20px;
+    font-size: 33px;
+}
+.kiss{
+	border: 1px #E1E5E7 solid;
+	margin: 30px 0px 0px 60px;
+}
+.memory span{
+	font-size: 33px;
+	color: #999999;
+	position: relative;
+    top: 28px;
+    margin-left: -4px;
+}
+.wonder span{
+	border-left: 2px solid #E1E5E7;
+	position: relative;
+    bottom: 15px;
+    margin-left: 151px;
+    padding-left: 26px;
+    font-size: 33px;
+}
+.true{
+	border: 1px #E1E5E7 solid;
+	margin: 24px 0px 0px -60px;
+}
+.only span{
+	font-size: 33px;
+	color: #999999;
+	border-right: 2px solid #E1E5E7;
+	padding-right: 26px;
+    position: relative;
+    top: 29px;
+    left: -7px;
+}
+.lost span{
+	font-size: 33px;    
+	margin-left: 181px;
+    position: relative;
+    bottom: 15px;
+}
+.change{
+	border: 1px #E1E5E7 solid;
+	margin: 24px 0px 0px -56px;
+}
+.star span{
+	font-size: 33px;
+	color: #999999;
+	border-right: 2px solid #E1E5E7;
+	padding-right: 26px;
+    position: relative;
+    top: 31px;
+    left: -6px;
+}
+.silence span{
+	font-size: 33px;
+	color: #e26163;
+	margin-left: 185px;
+    position: relative;
+    top: -12px;
+}
+.alone{
+	border: 1px solid #E1E5E7;
+    margin:22px 0px 0px -53px;
+}
+.you span{
+	font-size: 33px;
+	color: #999999;
+    margin-left: -7px;
+    position: relative;
+    top: 28px;
+    border-right: 2px #E1E5E7 solid;
+    padding-right: 29px;
+}
+.eternal{
+	font-size: 29px;
+	position:relative;
+    top: -29px;
+    margin-left: 189px;
+}
+.happiness{
+	border: 1px #E1E5E7 solid;
+    position: relative;
+    bottom: 218px;
+}
+.forgive input{
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #5FC0CD; 
+	background: #FFFFFF;
+    position: fixed;
+    left: 66px;
+    bottom: 33px;
+}
+.why input{
+	position: fixed;
+    left: 53%;
+    bottom: 33px;
+}

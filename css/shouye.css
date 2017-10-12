@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.faqs{
+	background: #F5F5F5;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+.active{
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	background: #29BDE0;
+}
+.active img{
+	margin: 35px 0px 0px 30px;
+}
+.fade{
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin-top: 140px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.fade p{
+    font-size: 55px;
+    color: #9A9A9A;
+    background: #FFFFFF;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: -29px;
+}
+.fade img{
+	margin: -74px 0px 40px 94%;
+}
+.one{
+	border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.one p{
+	font-size: 45px;
+	color: #fbb435;
+	background: #FFFFFF;
+	padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: -56px;
+	border-bottom: 1px solid #FBB435;
+}
+.radio{
+	background: #F5F5F5;
+	height: 175px;
+	margin-top: 56px;
+}
+.big{
+	margin-left: 141px;
+    margin-right: 141px;
+    height: 125%;
+    background: #FFFFFF;
+    padding-top: 55px;
+}
+.six{
+	height: 125px;
+	background: #29BDE0;
+	margin: 0px 90px 0px 90px;
+}
+.six p{
+	font-size: 52px;
+	padding-top: 24px;
+	color: #FFFFFF;
+}
+.shape p{
+ 	font-size: 29px;
+    color: #787878;
+    margin-top: 37px;
+    margin-left: 28%;
+	margin-bottom: 37px;
+}
+.shape img{
+	margin: -193px 0px 156px 105%;
+}
+.btn img{
+	margin: 76px 0px 0px 45%;
+}

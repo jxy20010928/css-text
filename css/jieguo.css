@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+.text{
+	background: #29BDE0;
+}
 .active{
 	position: fixed;
 	z-index: 9999;
@@ -41,7 +44,7 @@
 .fade p{
 	font-size: 36px;
 	color: #ffc865;
-	margin-left: 28%;
+
 }
 .fee{
 	background: #29BDE0;
@@ -87,6 +90,9 @@
 	border-bottom: 2px solid #E5E5E5;
 	margin-top: 40px;
 }
+.forever{
+	margin-bottom: 270px;
+}
 .forever p{
 	font-size: 45px;
 	color: #29BDE0;
@@ -98,25 +104,34 @@
 	margin-left:78% ;
 	margin-top: -64px;
 }
-.catch{
-	height: 200px;
-	width: 100%;
-	background: #29BDE0;
+.footer{
+	background:#29BDE0;
+	overflow: hidden;
 	position: fixed;
 	z-index: 999;
-	bottom: 0;                                                                                                                                                                                                                                                                                                                                                                                        
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 220px;
+	word-spacing: 230px;
 	opacity: 0.5;
 }
-.catch input{
-    border-radius: 20px;
-    background: #f66f6f;
-    position: relative;
-    top: 40px;
-    left: 69px;
+
+.box-2{
+	width: 300px;
+	height: 134px;
+	font-size: 40px;
+	background:#F66F6F ;
+	vertical-align: middle;
+	border-radius: 20px;
+	border: 1px;
 }
-.box input{
-    background: #fbb435;
-    position: relative;
-    top: -95px;
-    left: 57%;
+.box-1{
+	width: 300px;
+	height: 134px;
+	font-size: 40px;
+	background: #FBB435;
+	vertical-align: middle;
+	border-radius: 20px;
+	border: 1px;
 }

@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background: #29BDE0!important;
+}
 .arrow{
 	position: fixed;
 	z-index: 9999;

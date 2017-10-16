@@ -107,13 +107,15 @@
 	opacity: 0.5;
 }
 .catch input{
-	border-radius:20px ;
-	background: #f66f6f;
-	margin: 36px 0px 0px 115px;
+    border-radius: 20px;
+    background: #f66f6f;
+    position: relative;
+    top: 40px;
+    left: 69px;
 }
 .box input{
     background: #fbb435;
     position: relative;
-    top: -168px;
-    left: 50%;
+    top: -95px;
+    left: 57%;
 }

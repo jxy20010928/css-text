@@ -45,15 +45,17 @@
     padding: 31px 16px 47px 105px;	
 }
 .botton{
-	height: 950px;
+	height: 1000px;
 	background: #29BDE0;
 	
 }
 .box{
-	width: 200px;
-    margin-left: 187px;
-	float: left;
-	border: solid #FFFFFF 4px;
+    width: 200px;
+    margin-left: 104px;
+    position: relative;
+    right: 46px;
+    border: solid #FFFFFF 4px;
+    display: inline-block;
 }
 .box-1{
 	color: #565656;
@@ -93,4 +95,7 @@
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+.six input{
+	border-radius: 15px;
 }

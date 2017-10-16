@@ -27,20 +27,21 @@
 }
 .alert{
 	background: #29BDE0;
+	margin-top: 5px;
+	text-align: center;
 }
 .alert img{
-	margin: 144px 0px 0px 37%;
+	margin-top: 144px;
     padding-bottom: 40px;
-}
 }
 .fade{
 	background: #29BDE0;
-	height: 190px;
+	height: 192px;
 }
 .fade p{
 	font-size: 36px;
 	color: #ffc865;
-	margin: 36px 0px 0px 21px;dwaqas
+	margin-left: 28%;
 }
 .fee{
 	background: #29BDE0;

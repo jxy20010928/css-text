@@ -108,12 +108,12 @@
 	background:#29BDE0;
 	overflow: hidden;
 	position: fixed;
-	z-index: 999;
+	z-index: 998;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
 	line-height: 220px;
-	word-spacing: 230px;
+	word-spacing: 4em;
 	opacity: 0.5;
 }
 

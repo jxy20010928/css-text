@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.affix{
+	background: #FFFFFF;
+	height: 32px;
+	width: 100%;
+}
+.affix p{
+	font-size: 10px;
+	color: #29b078;
+	padding: 7px 0px 0px 200px;
+}
+.badge img{
+	position: relative;
+	left: 78%;
+	top: -19px;
+}
+.box{
+	background: #29B078;
+	height: 100px;
+	width: 100%;
+}

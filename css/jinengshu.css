@@ -2,23 +2,288 @@
 	margin: 0;
 	padding: 0;
 }
-.affix{
+body{
+	background: #fafafa!important;
+}
+.box{
 	background: #FFFFFF;
 	height: 32px;
 	width: 100%;
 }
-.affix p{
+.box p{
 	font-size: 10px;
 	color: #29b078;
-	padding: 7px 0px 0px 200px;
-}
-.badge img{
+	padding: 7px 0px 0px 130px;
+} 
+.lead img{
 	position: relative;
-	left: 78%;
-	top: -19px;
+    left: 44em;
+    bottom: 35px;
 }
-.box{
+.big{
 	background: #29B078;
-	height: 100px;
+	height: 110px;
 	width: 100%;
+	opacity: 1;
+}
+.big p{
+	color: #FFFFFF;
+	font-size: 15px;
+	float: right;
+	line-height: 100px;
+	margin-right: 125px;
+}
+ div.item img{
+    width:100%;
+    margin-top: -10px;
+   }
+ div#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+ }
+.item active{
+	height: 300px;
+}
+.good{
+	margin-top: 105px;
+}
+.text{
+	width: 179px;
+	height: 174px;
+}
+.text img{
+	margin-left: 114px;
+}
+.text p{
+	font-size: 19px;
+	margin-left: 116px;
+	padding-top: 25px;
+}
+.text span{
+	color: #999999;
+	font-size: 15px;
+}
+.text-1{
+	width: 182px;
+	height: 174px;
+}
+.text-1 img{
+	margin-left: 105px;
+	padding-top: 11px;
+}
+.text-1 p{
+	font-size: 19px;
+    margin-left: 116px;
+    padding-top: 28px;
+}
+.text-1 span{
+	color: #999999;
+	font-size: 15px;
+	padding-left: 43px;
+}
+.text-2{
+	height: 174px;
+	border-right-style: dashed;
+	border-right-color: #dedede;
+}
+.text-2 img{
+	margin-left: 112px;
+}
+.text-2 p{
+	font-size: 19px;
+    margin-left: 119px;
+    padding-top: 29px;
+}
+.text-2 span{
+	font-size: 15px;
+    color: #999999;
+}
+.text-3{
+	height: 174px;
+}
+.text-3 img{
+    margin-left: 54px;
+    padding-top: 13px;
+}
+.text-3 p{
+	font-size: 15px;
+    color: #999999;
+    padding-top: 24px;
+    margin-left: 52px;
+}
+.china p{
+    font-size: 21px;
+    position: relative;
+    top: 70px;
+    font-weight: 900;
+}
+.cat{
+	height: 125px;
+    margin-top: 105px;
+}
+.five{
+	height: 125px;
+}
+.five img{
+	padding-top: 23px;
+}
+.five p{
+	color: #999999;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+.five-1{
+	height: 125px;
+}
+.five-1 img{
+	padding-top: 23px;
+}
+.five-1 p{
+	color: #999999;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+.five-2{
+	height: 125px;
+}
+.five-2 img{
+	padding-top: 25px;
+}
+.five-2 p{
+	color: #999999;
+    margin-left: 80px;
+    margin-top: -47px;
+}
+.five-3{
+	height: 125px;
+}
+.five-3 img{
+	padding-top: 25px;
+}
+.five-3 p{
+	color: #999999;
+    margin-left: 80px;
+    margin-top: -47px;
+}
+.jiao img{
+	margin-left: 252px;
+	margin-top: -105px;
+}
+.jiao-1 img{
+	margin-left: 252px;
+	margin-top: -83px;
+}
+.two{
+	height: 350px;
+	margin-top: 150px;
+}
+.three {
+    height: 320px;
+    margin-left: 82px;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+}
+.three img{
+	margin-left: 28px;
+	margin-top: 20px;
+}
+.three p{
+	font-size: 20px;
+	margin-top: 20px;
+	padding-left: 6px;
+}
+.three span{
+	color: #999999;
+}
+.four img{
+	margin: 8px 0px 0px 41em;
+}
+.you{
+	height: 194px;
+    background: #ffffff;
+    margin-top: -295px;
+    border: 1px solid #dedede;
+}
+.he p{
+	margin-top: 110px;
+	font-size: 19px;
+	font-weight: 900;
+}
+.she{
+	margin-top: 0px;
+}
+.she img{
+	margin-left: 17px;
+    margin-top: 143px;
+    position: relative;
+    top: -99px;
+}
+.seven{
+    height: 110px;
+    width: 100%;
+    background: #FFFFFF;
+    margin-top: 120px;
+}
+.seven p{
+    padding-top: 6px;
+    font-size: 18px;
+}
+.eight{
+	margin-left: 20px;
+}
+.eight ul{
+	margin-left: 26px;
+}
+.eight li{
+	padding-top: 10px;
+	color: #999999;
+}
+.nine{
+	height:185px;
+	background: #29B078;
+}
+.nine p{
+	margin-top: 7px;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 36px 0px 0px 202px;
+}
+.tin p{
+	margin: -153px 0px 0px 394px;
+}
+.tin span{
+	margin-left: 35em;
+    font-size: 17px;
+    color: #fff;
+    position: relative;
+    top: 18px;
+}
+.a p{
+	margin-top: 5px;
+}
+.b p{
+	margin-left: 559px;
+    margin-top: -108px;
+}
+.b span{
+	font-size: 17px;
+    color: #ffffff;
+    margin-left: 45em;
+    position: relative;
+    top: 3px;
+}
+.b img{
+	margin-left: 277px;
+    margin-top: -40px;
+}
+.c p{
+	margin-top: -161px;
+    margin-left: 53em;
+}
+.d{
+	height: 31px;
+	color: #FFFFFF;
+	background: #29B078;
+	border-top: 1px solid #FAFAFA;
 }

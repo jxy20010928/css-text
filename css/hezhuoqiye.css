@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #FAFAFA;
+}
+.box{
+	background: #FFFFFF;
+	height: 32px;
+	width: 100%;
+}
+.box p{
+	font-size: 10px;
+	color: #29b078;
+	padding: 7px 0px 0px 130px;
+} 
+.lead img{
+	position: relative;
+    left: 67em;
+    bottom: 20px;
+}
+.big{
+	background: #29B078;
+	height: 100px;
+	width: 100%;
+	opacity: 1;
+}
+.big p{
+	color: #FFFFFF;
+	font-size: 15px;
+	float: right;
+	line-height: 100px;
+	margin-right: 125px;
+}
+.two img{
+	width: 100%;
+}
+.three{
+	margin-left: 170px;
+    margin-top: 14px;
+}
+.three p{
+	font-size: 15px;
+}
+.three span{
+	font-size: 15px;
+    margin-left: 47px;
+    position: relative;
+    top: -21px;
+    color: #29B078;
+}
+.five{
+	height: 73px;
+    width: 250px;
+    background: #ffffff;
+    margin-left: 165px;
+    border: 1px solid #e5e5e5;
+}
+.five p{
+	padding-top: 25px;
+    padding-left: 90px;
+}
+.six{
+	height: 177px;
+    width: 811px;
+    margin-left: 440px;
+    margin-top: -75px;
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+}
+.six img{
+	float: left;
+}
+.six p{
+	padding-top: 40px;
+    font-size: 14px;
+    color: #999999;
+    line-height: 29px;
+}
+.seven{
+	background: #ffffff;
+    height: 500px;
+    width: 250px;
+    border: 1px solid #e5e5e5;
+    margin-left: 165px;
+    margin-top: -105px;
+}
+.seven li{
+	margin-top: 18px;
+	color: #f9a372;
+}
+.seven p{
+	color: #29B078;
+}
+.seven-2{
+	position: relative;
+    top: -85px;
+    left: 91px;
+}
+.eight{
+    background: #ffffff;
+    height: 177px;
+    width: 811px;
+    border: 1px solid;
+    border-color: #FFFFFF #E5E5E5;
+    margin-left: 440px;
+    margin-top: -397px;
+}
+.eight-1{
+    height: 177px;
+    width: 750px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.eight p{
+    text-indent: 29px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 34px;
+}
+.nine{
+    background: #ffffff;
+    height: 177px;
+    width: 811px;
+    border: 1px solid;
+    border-color: #FFFFFF #E5E5E5;
+    margin-left: 440px;
+    margin-top: -30px;
+}
+.nine-1{
+    height: 177px;
+    width: 750px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.nine p{
+    text-indent: 29px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 34px;
+}
+.tin{
+    background: #ffffff;
+    height: 177px;
+    width: 811px;
+    border: 1px solid;
+    border-color: #FFFFFF #E5E5E5;
+    margin-left: 440px;
+    margin-top: -30px;
+}
+.tin-1{
+    height: 177px;
+    width: 750px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.tin p{
+    text-indent: 29px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 34px;
+}
+.title{
+    background: #ffffff;
+    height: 177px;
+    width: 811px;
+    border: 1px solid;
+    border-color: #FFFFFF #E5E5E5;
+    margin-left: 440px;
+}
+.title-1{
+    height: 177px;
+    width: 750px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.title p{
+    text-indent: 29px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 34px;
+}
+.wrap{
+    background: #ffffff;
+    height: 177px;
+    width: 811px;
+    border: 1px solid;
+    border-color: #FFFFFF #E5E5E5;
+    margin-left: 440px;
+}
+.wrap-1{
+    height: 177px;
+    width: 750px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.wrap p{
+    text-indent: 29px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 34px;
+}
+.fade{
+    background: #ffffff;
+    height: 350px;
+    width: 811px;
+    border: 1px solid;
+    border-color: #FFFFFF #E5E5E5 #E5E5E5;
+    margin-left: 440px;
+}
+.fade-1{
+    height: 177px;
+    width: 750px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.fade p{
+    text-indent: 29px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 34px;
+}
+.main{
+	height:190px;
+	background: #29B078;
+	margin-top: 200px;
+}
+.main p{
+	margin-top: 7px;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 36px 0px 0px 202px;
+}
+.media p{
+	margin: -118px 0px 0px 394px;
+}
+.media span{
+	margin-left: 35em;
+    font-size: 17px;
+    color: #fff;
+    position: relative;
+    top: 18px;
+}
+.a p{
+	margin-top: 5px;
+}
+.b p{
+	margin-left: 559px;
+    margin-top: -105px;
+}
+.b span{
+	font-size: 17px;
+    color: #ffffff;
+    margin-left: 45em;
+    position: relative;
+    top: 3px;
+}
+.b img{
+	margin-left: 277px;
+    margin-top: -48px;
+}
+.c p{
+	margin-top: -161px;
+    margin-left: 907px;
+}
+.d{
+	height: 31px;
+	color: #FFFFFF;
+	background: #29B078;
+	border-top: 1px solid #FAFAFA;
+}

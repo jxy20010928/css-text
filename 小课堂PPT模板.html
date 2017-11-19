@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -37,8 +37,8 @@
     <div class="slides">
         <section>
             <h4>小课堂【顺义】</h4>
-            <h4>【CSS-TASK4】js函数中的参数</h4>
-            <h4>分享人：任先阳</h4>
+            <h4>【CSS】常见的inline元素、block元素、inline-block元素有哪些？它们之间有什么区别？</h4>
+            <h4>分享人：计翔于</h4>
         </section>
         <section>
             <p>目录</p>
@@ -57,6 +57,11 @@
             </section>
             <section>
                 <p>
+                	在css中，inline-block：将对象呈递为内联对象，但是对象的内容作为块对象呈递。旁边的内联对象会被呈递在同一行内。display:inline-block
+
+旁边的内联对象会被呈递在同一行内，允许空格。但是这个属性目前不是所有的浏览器都支持，只有Opera和Safari支持，FireFox3和IE8据说将会支持，Firefox2和IE使用特殊办法可以实现这种效果，下面就来探讨一下
+
+在Firefox2中有-moz-inline-stack和-moz-inline-box实现，但是这两个私有属性在某些情况下都会有异常
                 </p>
             </section>
         </section>
@@ -66,7 +71,23 @@
             </section>
             <section>
                 <p>
+	inline元素不会独占一行，多个相邻的行内元素会排列在同一行里，直到一行排列不下，才会新换一行，其宽度随元素的内容而变化。
+	inline元素设置width,height属性无效。
+	inline元素的margin和padding属性，水平方向的padding-left, padding-right, margin-left, margin-right都产生边距效果；但竖直方向的padding-top, padding-bottom, margin-top, margin-bottom不会产生边距效果。
                 </p>
+                </section>
+                <section>
+                <p>
+                	block元素会独占一行，多个block元素会各自新起一行。默认情况下，block元素宽度自动填满其父元素宽度。
+block元素可以设置width,height属性。块级元素即使设置了宽度,仍然是独占一行。
+block元素可以设置margin和padding属性。
+                </p>
+                </section>
+                 <section>
+                <p>
+                	在CSS中通过display:inline-block对一个对象指定inline-block属性，简单来说就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个link（a元素）inline-block属性值，使其既具有block的宽度高度特性又具有inline的同行特性。
+                </p>
+                </section>
             </section>
         </section>
 
@@ -76,6 +97,7 @@
             </section>
             <section>
                 <p>
+                	有关于使用inline-block来代替float的讨论也蛮多的，最常说的就是使用inline-block来代替float进行布局，或者使用inline-block来实现元素的居中效果。不过留下了一个常见问题，就是使用inline-block的元素之间会存在的空白间距。那么今天我们就一起来说说这个的问题。
                 </p>
             </section>
         </section>
@@ -85,6 +107,9 @@
             </section>
             <section>
                 <p>
+
+简单一点的方法就是就是改变HTML的结构来达到效果。这种方法说的是通过标签来解决，虽然问题是解决了，但可以说不能称作是技巧。而且上面的方法只适合于写静态页面的时候，一旦你的HTML不是自己写，而是后台生成，就比如CMS来说，标签后台生成，此时，我想大家又要骂街了，这可怎么办？其实我们除了上面的方法，还可以使用CSS的
+margin的负值来解决
                 </p>
             </section>
         </section>
@@ -111,6 +136,7 @@
             </section>
             <section>
                 <p>
+                	<a href="http://www.cnblogs.com/qianxunpu/p/7054892.html">博客园inline-block</a>
                 </p>
             </section>
         </section>
@@ -128,7 +154,7 @@
             <p>感谢大家观看</p>
             <p>
                 By
-                <small style="vertical-align: middle">任先阳</small>
+                <small style="vertical-align: middle">计翔于</small>
             </p>
         </section>
     </div>

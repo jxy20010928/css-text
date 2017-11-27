@@ -211,7 +211,12 @@ body{
 	font-weight: 900;
 }
 .she{
-	margin-top: 0px;
+	margin-top: 77px;
+}
+.she img{
+	vertical-align: middle;
+    margin-left: 57px;
+    padding-bottom: 51px;
 }
 a.ex1:hover,a.ex1:active {font-size:300%;}
 a.ex2:hover,a.ex2:active {font-size:300%;}

@@ -607,3 +607,24 @@ margin-right: auto;
 .you{
 	margin-top: -50px;
 }
+.veil {
+	width: 30.8rem;
+    height: 469px;
+    background: #120e0b;
+    opacity: 0;
+    position: absolute;
+    padding: 8.5rem 4.3rem;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    transition: all 2s;
+    transform-origin: 50% 0;
+}
+
+.veil .veil-1 {
+	text-align: center;
+	margin-bottom: 3.5rem;
+}
+.aspect-2:hover .veil {
+	transform: rotatex(360deg);
+	opacity: 0.8;
+}

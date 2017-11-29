@@ -1,36 +1,58 @@
 <!DOCTYPE html>
-<html>
-<head>
-   	 		<meta charset="UTF-8">
-    		<title></title>
-    	<style>
-     	 	*{
-     	 		margin: 0;
-     	 		padding: 0;
-     	 	 }
-     	 	ul {
-     	 		list-style: none outside none;
-     	 		padding: 10px;
-     	 		background: #00fFFF;
-     	 		text-align: center;
-     	 		}
-     	    ul li{
-     	    	display: inline-block;
-     	 		*display: inline;
-     	 		zoom: 1;
-     	 		background: #98ab98;
-     	 		padding: 5px;
-     	 		margin: 0 -4px;
-     	 		}
-    	</style>
-			</head>
-			<body>
-			<ul>
-				<li>item1</li>
-				<li>item2</li>
-				<li>item3</li>
-				<li>item4</li>
-				<li>item5</li>
-			</ul>
-		</body>
-		</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+         
+        <style type="text/css">
+            .col-xs-6 {
+                background-color:red
+            }
+             
+            .col-xs-4 {
+                background-color:cyan
+            }
+            .col-xs-7 {
+                background-color:blue
+            }
+            .col-xs-5 {
+                background-color:pink
+            }
+             
+            @media (min-width: @screen-md-min) {
+                .col-md-8 {
+                    background-color:green
+                }
+                .col-md-4 {
+                    background-color:yellow
+                }
+                .col-md-5 {
+                    background-color:black
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-7 col-md-8">.col-xs-7 .col-md-8</div>
+                <div class="col-xs-5 col-md-5">.col-xs-5 .col-md-5</div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4 col-md-4">.col-xs-4 .col-md-4</div>
+              <div class="col-xs-4 col-md-4">.col-xs-4 .col-md-4</div>
+              <div class="col-xs-4 col-md-4">.col-xs-4 .col-md-4</div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6">.col-xs-6</div>
+              <div class="col-xs-6">.col-xs-6</div>
+            </div>
+        </div>
+    </body>
+</html>

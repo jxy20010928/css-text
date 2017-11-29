@@ -22,16 +22,31 @@ body{
 }
 .big{
 	background: #29B078;
-	height: 100px;
+	height: 110px;
 	width: 100%;
 	opacity: 1;
 }
 .big p{
+    font-size: 15px;
+    float: left;
+    line-height: 100px;
+    margin-right: 125px;
+    margin-top: -4px;
+    position: relative;
+    left: 800px;
+    top: 10px;
+    
+}
+.big p:hover{
+	display: block;
+	border-bottom: 0.3rem solid #FFFFFF;
+}
+.big a{
 	color: #FFFFFF;
-	font-size: 15px;
-	float: right;
-	line-height: 100px;
-	margin-right: 125px;
+}
+.big a:hover{
+	color: #FFFFFF;
+	
 }
 .two img{
 	width: 100%;
@@ -49,6 +64,9 @@ body{
     position: relative;
     top: -21px;
     color: #29B078;
+}
+.three a:hover{
+	color: #29B078;
 }
 .five{
 	height: 73px;
@@ -270,3 +288,4 @@ body{
 	background: #29B078;
 	border-top: 1px solid #FAFAFA;
 }
+ 

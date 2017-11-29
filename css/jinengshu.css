@@ -10,15 +10,20 @@ body{
 	height: 32px;
 	width: 100%;
 }
-.box p{
+.box a{
 	font-size: 10px;
-	color: #29b078;
-	padding: 7px 0px 0px 130px;
+    color: #29b078;
+    margin-left: 130px;
+    position: relative;
+    top: 5px;
 } 
+.box a:hover{
+	color: #29B078;
+}
 .lead img{
 	position: relative;
     left: 44em;
-    bottom: 35px;
+    bottom: 21px;
 }
 .big{
 	background: #29B078;
@@ -27,11 +32,26 @@ body{
 	opacity: 1;
 }
 .big p{
+    font-size: 15px;
+    float: left;
+    line-height: 100px;
+    margin-right: 125px;
+    margin-top: -4px;
+    position: relative;
+    left: 800px;
+    top: 10px;
+    
+}
+.big p:hover{
+	display: block;
+	border-bottom: 0.3rem solid #FFFFFF;
+}
+.big a{
 	color: #FFFFFF;
-	font-size: 15px;
-	float: right;
-	line-height: 100px;
-	margin-right: 125px;
+}
+.big a:hover{
+	color: #FFFFFF;
+	
 }
  div.item img{
     width:100%;
@@ -199,12 +219,6 @@ body{
 .four img{
 	margin: 8px 0px 0px 41em;
 }
-.you{
-	height: 200px;
-    background: #ffffff;
-    margin-top: -202px;
-    border: 1px solid #dedede;
-}
 .he p{
 	margin-top: 110px;
 	font-size: 19px;
@@ -217,6 +231,37 @@ body{
 	vertical-align: middle;
     margin-left: 57px;
     padding-bottom: 51px;
+    box-shadow: 2px 2px 7px rgba(34, 25, 25, 0.2);
+}
+.company{
+	margin-bottom: 2rem;
+	margin-top: 80px;
+}
+.company p {
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.company span {
+	float: left;
+	background: #FFFFFF;
+	height: 17.5rem;
+	box-shadow: 1px 1px 3px #888888;
+}
+
+.company span:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.company .logo {
+	width: 20%;
+	height: 20rem;
+	line-height: 18rem;
+	text-align: -webkit-center;
+}
+
+.clear {
+	clear: both
 }
 a.ex1:hover,a.ex1:active {font-size:300%;}
 a.ex2:hover,a.ex2:active {font-size:300%;}
@@ -243,6 +288,9 @@ a.ex5:hover,a.ex5:active {font-size:300%;}
 	padding-top: 10px;
 	color: #999999;
 }
+.eight a{
+	color: #999999;
+}
 .nine{
 	height:185px;
 	background: #29B078;
@@ -252,6 +300,12 @@ a.ex5:hover,a.ex5:active {font-size:300%;}
     font-size: 17px;
     color: #ffffff;
     padding: 36px 0px 0px 202px;
+}
+.nine a{
+	color: #FFFFFF;
+}
+.nine a:hover{
+	color: #FFFFFF;
 }
 .tin p{
 	margin: -153px 0px 0px 394px;
@@ -263,13 +317,20 @@ a.ex5:hover,a.ex5:active {font-size:300%;}
     position: relative;
     top: 18px;
 }
+.tin a{
+	color: #FFFFFF;
+}
 .a p{
 	margin-top: 5px;
+}
+.a a{
+	color: #FFFFFF;
 }
 .b p{
 	margin-left: 559px;
     margin-top: -108px;
 }
+
 .b span{
 	font-size: 17px;
     color: #ffffff;
@@ -278,7 +339,7 @@ a.ex5:hover,a.ex5:active {font-size:300%;}
     top: 3px;
 }
 .b img{
-	margin-left: 277px;
+	margin-left: 272px;
     margin-top: -40px;
 }
 .c p{
@@ -290,4 +351,7 @@ a.ex5:hover,a.ex5:active {font-size:300%;}
 	color: #FFFFFF;
 	background: #29B078;
 	border-top: 1px solid #FAFAFA;
+}
+@media (min-width: 768px) {
+	
 }

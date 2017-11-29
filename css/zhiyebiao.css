@@ -23,20 +23,35 @@ body{
 }
 .big{
 	background: #29B078;
-	height: 100px;
+	height: 110px;
 	width: 100%;
 	opacity: 1;
 }
 .big p{
+    font-size: 15px;
+    float: left;
+    line-height: 100px;
+    margin-right: 125px;
+    margin-top: -4px;
+    position: relative;
+    left: 800px;
+    top: 10px;
+    
+}
+.big p:hover{
+	display: block;
+	border-bottom: 0.3rem solid #FFFFFF;
+}
+.big a{
 	color: #FFFFFF;
-	font-size: 15px;
-	float: right;
-	line-height: 100px;
-	margin-right: 125px;
+}
+.big a:hover{
+	color: #FFFFFF;
+	
 }
 .big img{
-	margin-left: 137px;
-    margin-top: 21px;
+	margin-left: -466px;
+    margin-top: 31px;
 }
 .botton-border p{
 	font-size: 16px;
@@ -129,16 +144,18 @@ margin-right: auto;
 }
 .about img{
 	float: left;
-	margin-top: 15px;
+    margin-top: 15px;
+    margin-right: 7px;
+    margin-left: 10px;
 }
 .about p{
 	font-size: 17px;
     font-weight: 900;
-    margin-left: 164px;
+    margin-left: 195px;
     margin-top: 28px;
 }
 .about span{
-	font-size: 15px;
+	font-size: 14px;
 }
 .fovr-2{
 	margin-left: -1px;
@@ -321,6 +338,8 @@ margin-right: auto;
 .eight-2 span{
 	color: #999999;
 	font-size: 10px;
+	position: relative;
+    top: 12px;
 }
 .fovr-1{
 	height: 470px;

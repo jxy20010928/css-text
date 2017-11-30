@@ -5,7 +5,7 @@
 body{
 	background: #FAFAFA;
 }
-.box{
+/*.box{
 	background: #FFFFFF;
 	height: 32px;
 	width: 100%;
@@ -19,6 +19,32 @@ body{
 	position: relative;
     left: 67em;
     bottom: 20px;
+}*/
+.tip {
+	background: #FFFFFF;
+	padding: 0;
+}
+
+.contact{
+	height: 32px;
+}
+.contact img {
+	margin-left: 1rem;
+}
+
+.contact a {
+	font-size: 1.4rem;
+	color: #29b078;
+    margin: 145px;
+    position: relative;
+    top: 5px;
+}
+.contact a:hover{
+	color: #29B078;
+}
+.pull-right{
+	    margin-right: 186px;
+    margin-top: 4px
 }
 .big{
 	background: #29B078;
@@ -57,6 +83,8 @@ body{
 }
 .three p{
 	font-size: 15px;
+	position: relative;
+	top: 11px;
 }
 .three span{
 	font-size: 15px;
